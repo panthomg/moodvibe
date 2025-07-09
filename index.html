@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodVibe - Peaceful Mood Tracker</title>
+    <!-- React, ReactDOM, Babel (for in-browser JSX) -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- jsPDF and html2canvas for PDF Export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Placeholder for PWA manifest -->
+    <meta name="description" content="Track your moods with MoodVibe, a private, icon-driven web app. Log emotions, visualize trends and Free and fully on-device.">
+    <meta name="keywords" content="MoodVibe, Mood Tracker, Emotional Wellness, Privacy-First, Free Web App, Mood Visualization">
+    <meta name="author" content="MoodVibe, @Itzpanth Solutions, @TinWood Solutions">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MoodVibe – Mood Tracker">
+    <meta property="og:description" content="Log and track your moods with, visualize trends, and enjoy a private, on-device experience. Try MoodVibe for free!">
+    <meta property="og:image" content="https://moodvibee.netlify.app/mvlogo.png">
+    <meta property="og:url" content="https://moodvibee.netlify.app/">
+    <meta property="og:site_name" content="MoodVibe">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MoodVibe – Track Moods with Custom Icons">
+    <meta name="twitter:description" content="Discover MoodVibe, a privacy-first mood tracker with custom PNG icons and insightful visualizations. Free and web-based.">
+    <meta name="twitter:image" content="mvlogo.png">
+    <meta name="twitter:site" content="@MoodVibeApp">
+    <!-- Favicon -->
+    <link rel="icon" href="mvlogo.webp" type="image/webp">
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <!-- Favicon (example - replace with your own) -->
+    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>\ud83c\udf0a</text></svg>"> -->
+</head>
+<body>
+    <div id="root">
+        <noscript>
+            <div style="padding:2em;text-align:center;color:#333;font-size:1.2em;">MoodVibe requires JavaScript to run. Please enable JavaScript in your browser.<br/>If you see a blank screen, try refreshing or updating your browser.</div>
+        </noscript>
+    </div>
+
+    <!-- NEW: Hidden audio elements for UI sounds -->
+    <audio id="audio-log-success" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_165a4430a2.mp3?filename=success-1-6297.mp3" preload="auto"></audio>
+    <audio id="audio-click" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_bb630cc098.mp3?filename=mouse-click-153941.mp3" preload="auto"></audio>
+    <audio id="audio-delete" src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_c38598696b.mp3?filename=woosh-6316.mp3" preload="auto"></audio>
+
+    <!-- External JavaScript -->
+    <script type="text/babel" data-presets="react,env" src="script.js"></script>
+    <script>
+        if (window.App) {
+            ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(window.App));
+        }
+    </script>
+</body>
+</html>
