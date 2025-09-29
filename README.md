@@ -47,4 +47,4 @@ MoodVibe follows a **privacy-first, client-side only** architecture:
 - **Declarative State Management** - React hooks (useState, useEffect, useMemo)
 - **Local Data Persistence** - All data stored in browser's localStorage
 
-## 📁 Project Structure
+
