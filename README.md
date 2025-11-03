@@ -10,10 +10,6 @@ This repository serves as the official home for MoodVibe's public information, f
 
 [**➡️ View the Live Demo**](https://moodvibee.netlify.app/)
 
-<p align="center">
-  <!-- Replace this with a GIF or screenshot of the app in action -->
-  <img src="https://via.placeholder.com/800x450.png?text=MoodVibe+App+Showcase" alt="MoodVibe App Showcase"/>
-</p>
 
 ---
 
