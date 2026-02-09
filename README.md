@@ -134,12 +134,12 @@ MoodVibe uses a hybrid data storage model to prioritize privacy and flexibility.
 We are committed to making MoodVibe the best personal wellness tool it can be. If you encounter a bug, have a feature request, or need support, please:
 
 *   **Contact Us:** For other inquiries, you can reach out to us at `(https://itzpanth.netlify.app/contact)`.
-*   **Our Landing Page:** https://tintools.netlify.app/android
+*   **Our Landing Page:** https://moodvibee.netlify.app/android
 ---
 
 ## 📜 License & Copyright
 
-**Copyright © 2025 Itzpanth Solutions & TinWood Solutions. All Rights Reserved.**
+**Copyright © 2026 Itzpanth Solutions & TinWood Solutions. All Rights Reserved.**
 
 This software is proprietary. You may use the live version of this application according to its terms of service. You are not permitted to copy, modify, distribute, sell, or lease any part of our software, nor may you reverse engineer or attempt to extract the source code, unless laws prohibit these restrictions or you have our written permission.
 
